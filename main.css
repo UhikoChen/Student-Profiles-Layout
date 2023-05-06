@@ -1,0 +1,512 @@
+body {
+    background-color: #e0e1ea;
+}
+
+/* 卡片群組 */
+.introduce-card {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+}
+
+/*左邊卡片*/
+.introduce-card-1 {
+    width: 486px;
+    height: 1053px;
+    background-color: #f6f8fa;
+    border-radius: 50px;
+    margin: 50px;
+}
+
+/*上半部*/
+.introduce-card-1 > .top-block {
+    position: relative;
+}
+
+.introduce-card-1 > .top-block > .Top-image {
+    width: 100%;
+}
+
+.introduce-card-1 > .top-block > .arrow {
+    background-color: red;
+}
+
+.introduce-card-1 > .top-block > .arrow > .arrow1 {
+    position: absolute;
+    top: 60px;
+    left: 63px;
+    width: 17px;
+    height: 17px;
+    border-top: 2px solid #fffff9;
+    transform: rotate(-45deg);
+}
+
+.introduce-card-1 > .top-block > .arrow > .arrow2 {
+    position: absolute;
+    top: 71px;
+    left: 50.4px;
+    width: 17px;
+    height: 17px;
+    border-top: 2px solid #fffff9;
+    transform: rotate(45deg);
+    /* background-color: aqua; */
+}
+
+.introduce-card-1 > .top-block > .arrow > .arrow3 {
+    position: absolute;
+    top: 68.3px;
+    left: 60px;
+    width: 22px;
+    height: 20px;
+    border-top: 2px solid #fffff9;
+}
+
+/*中半部*/
+.introduce-card-1 > .middle-block {
+    background-color: white;
+    width: 382px;
+    position: relative;
+    left: 52px;
+    top: -129px;
+    border-radius: 20px;
+    /* 陰影 */
+    box-shadow: 0px 10px 15px rgba(0,0,0,0.1);
+}
+
+.introduce-card-1 > .middle-block > .avatar {
+    display: block;
+    margin: auto;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.introduce-card-1 > .middle-block > .name {
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 20pt;
+    color: #39435b;
+}
+
+.introduce-card-1 > .middle-block > .job {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 12pt;
+    font-weight: 600;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    color: #83868e;
+}
+
+.introduce-card-1 > .middle-block > .info {
+    display: grid;
+    grid-template-columns: 150px 150px;
+    justify-content: center;
+    justify-items: center;
+    padding: 35px 0px;
+}
+
+.introduce-card-1 > .middle-block > .info > .followers > .followers-icon {
+    vertical-align: middle;
+}
+
+.introduce-card-1 > .middle-block > .info > .followers > .followers-group {
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 10px;
+}
+
+.introduce-card-1
+    > .middle-block
+    > .info
+    > .followers
+    > .followers-group
+    > .followers-count {
+    font-family: sans-serif;
+    color: #39435b;
+    font-weight: bold;
+    padding-bottom: 2px;
+}
+
+.introduce-card-1
+    > .middle-block
+    > .info
+    > .followers
+    > .followers-group
+    > .followers-text {
+    font-family: sans-serif;
+    color: #83868e;
+    padding-top: 2px;
+}
+
+.introduce-card-1 > .middle-block > .info > .ratings > .ratings-icon {
+    vertical-align: middle;
+}
+
+.introduce-card-1 > .middle-block > .info > .ratings > .ratings-group {
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 10px;
+}
+
+.introduce-card-1
+    > .middle-block
+    > .info
+    > .ratings
+    > .ratings-group
+    > .ratings-count {
+    font-family: sans-serif;
+    color: #39435b;
+    font-weight: bold;
+    padding-bottom: 2px;
+}
+
+.introduce-card-1
+    > .middle-block
+    > .info
+    > .ratings
+    > .ratings-group
+    > .ratings-text {
+    font-family: sans-serif;
+    color: #83868e;
+    padding-top: 2px;
+}
+
+/*下半部*/
+.introduce-card-1 > .bottom-block {
+    position: relative;
+    top: -80px;
+}
+
+.introduce-card-1 > .bottom-block > .title > .title-text {
+    font-size: 24pt;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: #39435b;
+    padding: 0 0 34px 50px;
+}
+
+.introduce-card-1 > .bottom-block > .title > .point > .point1 {
+    width: 8px;
+    height: 8px;
+    border-radius: 50px;
+    background-color: #9199ab;
+    position: absolute;
+    top: 14px;
+    right: 72px;
+}
+
+.introduce-card-1 > .bottom-block > .title > .point > .point2 {
+    width: 8px;
+    height: 8px;
+    border-radius: 50px;
+    background-color: #9199ab;
+    position: absolute;
+    top: 14px;
+    right: 55px;
+}
+
+.introduce-card-1 > .bottom-block > .video-list {
+    padding: 0 50px;
+    margin: 0;
+    max-height: 342px;
+    overflow-y: auto;
+}
+
+.introduce-card-1 > .bottom-block > .video-list::-webkit-scrollbar {
+    display: none;
+}
+
+.introduce-card-1 > .bottom-block > .video-list > li {
+    list-style: none;
+    padding: 0 0 26px 0;
+}
+
+.introduce-card-1 > .bottom-block > .video-list > li > img {
+    vertical-align: middle;
+}
+
+.introduce-card-1 > .bottom-block > .video-list > li > .content {
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 15px;
+}
+
+.introduce-card-1 > .bottom-block > .video-list > li > .content > .title {
+    font-size: 20pt;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: #3d4454;
+    margin-bottom: 7px;
+}
+
+.introduce-card-1 > .bottom-block > .video-list > li > .content > .text {
+    font-family: sans-serif;
+    font-size: 14pt;
+    color: #8d929a;
+}
+
+.introduce-card-1 > .bottom-block > .video-list > li > .line {
+    margin-top: 20px;
+    border-bottom: 3px solid #eceef0;
+    width: 300px;
+    margin-left: 70px;
+}
+
+/* 右邊卡片 */
+
+.introduce-card-2 {
+    width: 486px;
+    height: 1053px;
+    background-color: #f6f8fa;
+    border-radius: 50px;
+    margin: 50px;
+}
+
+/*上半部*/
+.introduce-card-2 > .top-block {
+    position: relative;
+}
+
+.introduce-card-2 > .top-block > .top-background {
+    background-color: #72a065;
+    width: 486px;
+    height: 350px;
+    border-radius: 30px;
+}
+
+/* 箭頭 */
+.introduce-card-2 > .top-block > .arrow > .arrow1 {
+    position: absolute;
+    top: 60px;
+    left: 63px;
+    width: 17px;
+    height: 17px;
+    border-top: 2px solid #fffff9;
+    transform: rotate(-45deg);
+}
+
+.introduce-card-2 > .top-block > .arrow > .arrow2 {
+    position: absolute;
+    top: 71px;
+    left: 50.4px;
+    width: 17px;
+    height: 17px;
+    border-top: 2px solid #fffff9;
+    transform: rotate(45deg);
+}
+
+.introduce-card-2 > .top-block > .arrow > .arrow3 {
+    position: absolute;
+    top: 68.3px;
+    left: 60px;
+    width: 22px;
+    height: 20px;
+    border-top: 2px solid #fffff9;
+}
+
+/* 點點 */
+.introduce-card-2 > .top-block > .point > .point1 {
+    width: 8px;
+    height: 8px;
+    border-radius: 50px;
+    background-color: #fcfffc;
+    position: absolute;
+    top: 65px;
+    right: 72px;
+}
+
+.introduce-card-2 > .top-block > .point > .point2 {
+    width: 8px;
+    height: 8px;
+    border-radius: 50px;
+    background-color: #fcfffc;
+    position: absolute;
+    top: 65px;
+    right: 55px;
+}
+
+/* 內容 */
+.introduce-card-2 > .top-block > .info {
+    display: grid;
+    grid-template-columns: 195px auto;
+    grid-template-rows: 132px auto;
+    position: relative;
+    top: -213px;
+}
+
+.introduce-card-2 > .top-block > .info > .person-avatar {
+    margin-left: 55px;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.introduce-card-2 > .top-block > .info > .person-data {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    padding-top: 46px;
+}
+
+.introduce-card-2 > .top-block > .info > .person-data > .name {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 20pt;
+    color: #fdfffd;
+}
+
+.introduce-card-2 > .top-block > .info > .person-data > .job {
+    font-family: sans-serif;
+    font-size: 12pt;
+    font-weight: 600;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    color: #b8d5b2;
+}
+
+.introduce-card-2 > .top-block > .info > .followers > .followers-icon {
+    vertical-align: middle;
+}
+
+.introduce-card-2 > .top-block > .info > .followers > .followers-group {
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 10px;
+}
+
+.introduce-card-2
+    > .top-block
+    > .info
+    > .followers
+    > .followers-group
+    > .followers-count {
+    color: #fdfffd;
+    font-family: sans-serif;
+    font-weight: bold;
+    padding-bottom: 2px;
+}
+
+.introduce-card-2
+    > .top-block
+    > .info
+    > .followers
+    > .followers-group
+    > .followers-text {
+    color: #b8d5b2;
+    font-family: sans-serif;
+    padding-top: 2px;
+}
+
+.introduce-card-2 > .top-block > .info > .ratings > .ratings-icon {
+    vertical-align: middle;
+}
+
+.introduce-card-2 > .top-block > .info > .ratings > .ratings-group {
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 10px;
+}
+
+.introduce-card-2
+    > .top-block
+    > .info
+    > .ratings
+    > .ratings-group
+    > .ratings-count {
+    color: #fdfffd;
+    font-family: sans-serif;
+    font-weight: bold;
+    padding-bottom: 2px;
+}
+
+.introduce-card-2
+    > .top-block
+    > .info
+    > .ratings
+    > .ratings-group
+    > .ratings-text {
+    color: #b8d5b2;
+    font-family: sans-serif;
+    padding-top: 2px;
+}
+
+/*中半部*/
+.introduce-card-2 > .middle-block {
+    position: relative;
+    top: -160px;
+}
+
+.introduce-card-2 > .middle-block > .title > .title-text {
+    font-size: 16pt;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #39435b;
+    padding: 0 0 34px 55px;
+}
+
+.introduce-card-2 > .middle-block > .title > .point > .point1 {
+    width: 8px;
+    height: 8px;
+    border-radius: 50px;
+    background-color: #9199ab;
+    position: absolute;
+    top: 7px;
+    right: 72px;
+}
+
+.introduce-card-2 > .middle-block > .title > .point > .point2 {
+    width: 8px;
+    height: 8px;
+    border-radius: 50px;
+    background-color: #9199ab;
+    position: absolute;
+    top: 7px;
+    right: 55px;
+}
+
+.introduce-card-2 > .middle-block > .video-list {
+    padding: 0 55px;
+    margin: 0;
+}
+
+.introduce-card-2 > .middle-block > .video-list > li {
+    list-style: none;
+    padding: 0 0 26px 0;
+    cursor:pointer;
+}
+
+.introduce-card-2 > .middle-block > .video-list > li:hover > .content > .title {
+    color: red;
+}
+
+.introduce-card-2 > .middle-block > .video-list > li > img {
+    vertical-align: middle;
+}
+
+.introduce-card-2 > .middle-block > .video-list > li > .content {
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 15px;
+}
+
+.introduce-card-2 > .middle-block > .video-list > li > .content > .title {
+    font-size: 20pt;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: #3d4454;
+    margin-bottom: 7px;
+}
+
+.introduce-card-2 > .middle-block > .video-list > li > .content > .text {
+    font-family: sans-serif;
+    font-size: 14pt;
+    color: #8d929a;
+}
+
+.introduce-card-2 > .bottom-block > .buynow {
+    display: block;
+    margin: auto;
+    position: relative;
+    top: -120px;
+}
